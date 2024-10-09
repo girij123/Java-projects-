@@ -6,7 +6,7 @@ public class Firstpage {
 	 static String name="Admin";
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stu+98b
 		Scanner sc=new Scanner(System.in);
     System.out.println("Welcome online Pharamcy");
     System.out.println("1.Admin");
