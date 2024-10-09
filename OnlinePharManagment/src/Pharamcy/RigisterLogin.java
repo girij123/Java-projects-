@@ -9,6 +9,7 @@ public class RigisterLogin {
 	public static void Login() {
 		String s="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
 		System.out.println("******"+"Welcome to Login page"+"********");
+		System.out.println("*****************************************");
 		System.out.print("Enter your emailId :"+" ");
 		String Email=sc1.nextLine();
 		System.out.print("Enter your Password :"+" ");
@@ -19,7 +20,7 @@ public class RigisterLogin {
 		  }
 		else {
 			  System.out.println("******"+"Enter correct Emailid"+""
-			  		+ "**********");
+			  	+ "**********");
 		  }
 	}
 
