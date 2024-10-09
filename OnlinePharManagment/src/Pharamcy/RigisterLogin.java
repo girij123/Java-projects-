@@ -8,7 +8,7 @@ public class RigisterLogin {
 	
 	public static void Login() {
 		String s="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
-		System.out.println("******"+"Welcome to Login page"+"******");
+		System.out.println("******"+"Welcome to Login page"+"********");
 		System.out.print("Enter your emailId :"+" ");
 		String Email=sc1.nextLine();
 		System.out.print("Enter your Password :"+" ");
@@ -18,12 +18,14 @@ public class RigisterLogin {
 		  Menu.menu("user");
 		  }
 		else {
-			  System.out.println("******"+"Enter correct Emailid"+"******");
+			  System.out.println("******"+"Enter correct Emailid"+""
+			  		+ "**********");
 		  }
 	}
 
 
 	public static void Call() {
+
 		System.out.println("------Welcome to online pharamacey-------");
 		System.out.println("1.Register");
 		System.out.println("2.Login");
